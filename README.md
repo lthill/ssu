@@ -68,6 +68,9 @@ account at Chase. In another terminal window, run this:
 
     ssu$ script/generate credential com.chase chase
 
+May require:
+    sudo gem install templater
+
 That'll create a file at `credentials/chase` that looks like this:
 
     {"creds": {"username": "FIUSERNAME", "password": "FIPASSWORD"}, "fid": "com.chase"}
